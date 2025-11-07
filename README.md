@@ -52,17 +52,17 @@ fetch("https://raw.githubusercontent.com/kafihoangvu/kafka-bulk-producer/main/ma
 
 A small window titled “Kafka UI – Bulk Producer” will appear.
 
-Step 1 – Pick a cluster
+#### Step 1 – Pick a cluster
 
 All available clusters will load automatically.
 You can search by name using the search box.
 
-Step 2 – Pick a topic
+#### Step 2 – Pick a topic
 
 After selecting a cluster, all topics (with pagination up to 1000) will be listed.
 You can search topics client-side in the dropdown.
 
-Step 3 – Paste messages
+#### Step 3 – Paste messages
 
 Paste one JSON object per line (NDJSON format), for example:
 
@@ -72,7 +72,7 @@ Paste one JSON object per line (NDJSON format), for example:
 ```
 Each line represents a separate message.
 
-Step 4 – Send 🚀
+#### Step 4 – Send 🚀
 
 Choose a partition (or enable auto/null) and click Send.
 Messages will be sent sequentially with a small throttle delay to avoid overload.
