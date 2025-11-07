@@ -14,8 +14,7 @@ This script lets you:
 
 ### 1️⃣ Open Kafka UI
 
-Go to your Kafka UI dashboard, e.g.  
-👉 `https://kafka-ui.kafi.vn/ui/clusters/...`
+Go to your [Kafka UI dashboard](https://kafka-ui.kafi.vn/) - [https://kafka-ui-kafi.vn/](https://kafka-ui.kafi.vn/), e.g.  
 
 Press **F12** or **Ctrl + Shift + I** → open the **Console** tab.
 
