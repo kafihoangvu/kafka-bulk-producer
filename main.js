@@ -149,7 +149,6 @@
       <div class="row status" id="statusBox"></div>
 
       <div class="footer">
-        <button class="secondary" id="btnDetect">Detect from URL</button>
         <button class="primary" id="btnSend" disabled>Send</button>
       </div>
     </div>
