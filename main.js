@@ -169,7 +169,6 @@
     status: $('statusBox'),
     btnSend: $('btnSend'),
     btnClose: $('btnClose'),
-    btnDetect: $('btnDetect')
   };
 
   const log = (line) => {
@@ -178,13 +177,6 @@
   };
 
   els.btnClose.onclick = () => host.remove();
-
-  els.btnDetect.onclick = () => {
-    if (detectedCluster && clustersAll.some(c => c.name === decodeURIComponent(detectedCluster))) {
-      els.clusterSel.value = decodeURIComponent(detectedCluster);
-      els.clusterSel.dispatchEvent(new Event('change'));
-    }
-  };
 
   // ---------- Load clusters ----------
   let clustersAll = [];
